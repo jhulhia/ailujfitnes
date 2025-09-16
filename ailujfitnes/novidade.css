@@ -1,0 +1,51 @@
+ .novidade-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 50vh;
+        }
+        .novidade-box {
+            background: #ffe0ef;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px #0001;
+            padding: 40px 32px;
+            max-width: 650px;
+            width: 90%;
+            margin: 32px 0;
+            text-align: center;
+        }
+        .novidade-box h2 {
+            margin-top: 0;
+            font-size: 2rem;
+            color: #d72660;
+        }
+        .novidade-box ul {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0 0 0;
+        }
+        .novidade-box li {
+            font-size: 1.3rem;
+            margin-bottom: 16px;
+            color: #222;
+        }
+        .section-title {
+            background: #ffe0ef;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 12px 0;
+            margin: 24px 8% 0 8%;
+        }
+        @media (max-width: 700px) {
+            .novidade-box {
+                padding: 24px 10px;
+            }
+            .novidade-box h2 {
+                font-size: 1.3rem;
+            }
+            .novidade-box li {
+                font-size: 1rem;
+            }
+        }

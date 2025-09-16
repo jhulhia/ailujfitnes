@@ -1,0 +1,39 @@
+ .historia-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 50vh;
+        }
+        .historia-box {
+            background: #ffe0ef;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px #0001;
+            padding: 40px 32px;
+            max-width: 650px;
+            width: 90%;
+            margin: 32px 0;
+            text-align: center;
+        }
+        .historia-box p {
+            font-size: 2rem;
+            margin: 0;
+            color: #222;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .section-title {
+            background: #ffe0ef;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 12px 0;
+            margin: 24px 8% 0 8%;
+        }
+        @media (max-width: 700px) {
+            .historia-box {
+                padding: 24px 10px;
+            }
+            .historia-box p {
+                font-size: 1.1rem;
+            }
+        }
